@@ -8,7 +8,7 @@
     "@actions/github": "5.1.1"
   },
   "devDependencies": {
-    "@types/node": "18.16.10",
+    "@types/node": "18.16.12",
     "typescript": "5.0.4"
   }
 }
