@@ -14,7 +14,7 @@ const main = async (): Promise<void> => {
 };
 
 main().catch((e) =>
-  core.setFailed(e instanceof Error ? e.message : JSON.stringify(e))
+  core.setFailed(e instanceof Error ? e.message : JSON.stringify(e)),
 );
 
 function getState(state: string): "error" | "failure" | "pending" | "success" {
