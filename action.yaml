@@ -26,5 +26,5 @@ inputs:
     description: target URL
     required: false
 runs:
-  using: node16
+  using: node20
   main: dist/index.js
