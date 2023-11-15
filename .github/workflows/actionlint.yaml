@@ -21,5 +21,5 @@ jobs:
       - uses: actions/checkout@dc323e67f16fb5f7663d20ff7941f27f5809e9b6 # v2
       - uses: aquaproj/aqua-installer@928a2ee4243a9ee8312d80dc8cbaca88fb602a91 # v2.2.0
         with:
-          aqua_version: v2.17.1
+          aqua_version: v2.17.2
       - run: actionlint
