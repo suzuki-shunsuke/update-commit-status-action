@@ -1,13 +1,15 @@
 {
   "extends": [
-    "config:base",
+    "config:recommended",
     "github>suzuki-shunsuke/renovate-config",
     "github>aquaproj/aqua-renovate-config#1.13.0",
     "github>aquaproj/aqua-renovate-config:file#1.13.0(aqua/.+\\.yaml)"
   ],
   "packageRules": [
     {
-      "matchUpdateTypes": ["digest"],
+      "matchUpdateTypes": [
+        "digest"
+      ],
       "enabled": false
     }
   ]
